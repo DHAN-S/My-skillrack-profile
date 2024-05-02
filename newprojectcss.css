@@ -1,0 +1,122 @@
+.legend
+{
+    font-style: calc();
+    background-color: #ffe4c4;
+    font-weight: bolder;
+}
+.fieldset
+{
+    border-width:5px;
+    box-shadow: 5px 5px 5px;
+    border-radius: 5px;
+    border-color: brown;
+}
+.top-box{
+    background-color: black;
+    color: aliceblue;
+    border-radius: 5px;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+
+
+    
+}
+
+.header-image
+{
+   
+    width:100px;
+    height:100px;
+}
+.name
+{   
+   
+     font-style: italic;
+     transition: all 3s;
+}
+
+.name:hover{
+    color:green;
+}
+.login
+{
+    border-radius: 10px;
+    padding:10px;
+    color: blueviolet;
+    background-color: aquamarine;
+    height:50px;
+    margin-right: 20px;
+    margin-top:20px;
+    transition: all 3s;
+   
+}.login:hover{
+    color:black;
+    background-color: yellow;
+    border-radius: 20px;
+    cursor: pointer;
+}.login:active
+{
+    color:red;
+    background-color: maroon;
+}
+    
+span{
+    color:darkblue
+}
+
+.search
+{
+    border-radius:5px;
+   
+    width:70%;
+  
+    margin-top:50px;
+    margin-left:150px;
+    padding:15px;
+}
+.images
+{
+    padding:20px;
+    text-align: center;
+  
+}
+.im1,.im2,.im3
+{
+    width:220px;
+    height:220px;
+ 
+}
+.i1,.i2,.i3{
+    padding:10px;
+    display:inline-block;
+  
+    width:220px;
+}
+
+p{
+text-align: justify;
+}
+
+.details
+{display:block;
+    margin-bottom:50px;    
+}
+.det{display:block;
+    text-align: center;
+}
+.id{ 
+    font-weight: bolder;
+
+}.det1{
+    text-align: center;
+}
+.link
+{
+    color:blue;
+}.link:hover{
+    color:red;
+}.img{
+ height:40px;
+ widht:40px;
+}
